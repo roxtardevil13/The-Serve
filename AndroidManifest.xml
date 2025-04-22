@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.theserve">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheServe">
+        <activity android:name=".HomePage" />
+        <activity android:name=".AfterPayment" />
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Maid5" />
+        <activity android:name=".Maid4" />
+        <activity android:name=".Maid3" />
+        <activity android:name=".Maid2" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Maid1" />
+        <activity android:name=".Maid6" />
+        <activity android:name=".FeedBack" />
+        <activity android:name=".Logout" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".Registration" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".OTP" />
+        <activity android:name=".OTPS" />
+        <activity android:name=".otpupdate" />
+        <activity android:name=".Login" />
+        <activity android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_pLHRM5lSDvJ2mb" />
+    </application>
+
+</manifest>
