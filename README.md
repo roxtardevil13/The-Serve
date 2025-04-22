@@ -13,11 +13,6 @@
 - 🔔 **Real-time Notifications** – Get alerts for new requests and responses.
 - 🔐 **Secure Sign In** – Protect user identity and data.
 
----
-
-## 📱 Screenshots
-
-_Add app screenshots here to showcase UI and features._
 
 ---
 
